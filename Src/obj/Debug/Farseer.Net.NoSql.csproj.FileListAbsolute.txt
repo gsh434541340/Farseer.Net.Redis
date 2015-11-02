@@ -1,0 +1,7 @@
+E:\公司\Farseer.Net\Framework\V1\Source\Farseer.Net.NoSql\bin\Debug\Farseer.Net.NoSql.dll
+E:\公司\Farseer.Net\Framework\V1\Source\Farseer.Net.NoSql\bin\Debug\Farseer.Net.NoSql.pdb
+E:\公司\Farseer.Net\Framework\V1\Source\Farseer.Net.NoSql\bin\Debug\Farseer.Net.dll
+E:\公司\Farseer.Net\Framework\V1\Source\Farseer.Net.NoSql\bin\Debug\Farseer.Net.pdb
+E:\公司\Farseer.Net\Framework\V1\Source\Farseer.Net.NoSql\obj\Debug\Farseer.Net.NoSql.dll
+E:\公司\Farseer.Net\Framework\V1\Source\Farseer.Net.NoSql\obj\Debug\Farseer.Net.NoSql.pdb
+E:\公司\Farseer.Net\Framework\V1\Source\Farseer.Net.NoSql\obj\Debug\Farseer.Net.NoSql.csprojResolveAssemblyReference.cache

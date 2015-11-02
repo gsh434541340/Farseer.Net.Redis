@@ -1,0 +1,11 @@
+E:\公司\Farseer.Net\Framework\Farseer.Net.Redis\Test\ServiceStack.Redis.Tests\bin\Debug\ServiceStack.Redis.Tests.dll
+E:\公司\Farseer.Net\Framework\Farseer.Net.Redis\Test\ServiceStack.Redis.Tests\bin\Debug\ServiceStack.Redis.Tests.pdb
+E:\公司\Farseer.Net\Framework\Farseer.Net.Redis\Test\ServiceStack.Redis.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\公司\Farseer.Net\Framework\Farseer.Net.Redis\Test\ServiceStack.Redis.Tests\bin\Debug\ServiceStack.Interfaces.dll
+E:\公司\Farseer.Net\Framework\Farseer.Net.Redis\Test\ServiceStack.Redis.Tests\bin\Debug\ServiceStack.Redis.dll
+E:\公司\Farseer.Net\Framework\Farseer.Net.Redis\Test\ServiceStack.Redis.Tests\bin\Debug\ServiceStack.Common.dll
+E:\公司\Farseer.Net\Framework\Farseer.Net.Redis\Test\ServiceStack.Redis.Tests\bin\Debug\ServiceStack.Text.dll
+E:\公司\Farseer.Net\Framework\Farseer.Net.Redis\Test\ServiceStack.Redis.Tests\bin\Debug\ServiceStack.Redis.pdb
+E:\公司\Farseer.Net\Framework\Farseer.Net.Redis\Test\ServiceStack.Redis.Tests\obj\Debug\ServiceStack.Redis.Tests.csprojResolveAssemblyReference.cache
+E:\公司\Farseer.Net\Framework\Farseer.Net.Redis\Test\ServiceStack.Redis.Tests\obj\Debug\ServiceStack.Redis.Tests.dll
+E:\公司\Farseer.Net\Framework\Farseer.Net.Redis\Test\ServiceStack.Redis.Tests\obj\Debug\ServiceStack.Redis.Tests.pdb

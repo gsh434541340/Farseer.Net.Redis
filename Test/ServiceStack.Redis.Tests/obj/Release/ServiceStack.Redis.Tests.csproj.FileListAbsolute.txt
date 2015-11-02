@@ -1,0 +1,1 @@
+E:\公司\Farseer.Net\Framework\Farseer.Net.Redis\Test\ServiceStack.Redis.Tests\obj\Release\ServiceStack.Redis.Tests.csprojResolveAssemblyReference.cache

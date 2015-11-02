@@ -1,0 +1,6 @@
+E:\公司\Farseer.Net\Framework\Farseer.Net.Redis\Src\bin\Release\Farseer.Net.Redis.dll
+E:\公司\Farseer.Net\Framework\Farseer.Net.Redis\Src\bin\Release\Farseer.Net.Redis.pdb
+E:\公司\Farseer.Net\Framework\Farseer.Net.Redis\Src\bin\Release\Farseer.Net.dll
+E:\公司\Farseer.Net\Framework\Farseer.Net.Redis\Src\obj\Release\Farseer.Net.Redis.csprojResolveAssemblyReference.cache
+E:\公司\Farseer.Net\Framework\Farseer.Net.Redis\Src\obj\Release\Farseer.Net.Redis.dll
+E:\公司\Farseer.Net\Framework\Farseer.Net.Redis\Src\obj\Release\Farseer.Net.Redis.pdb

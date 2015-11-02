@@ -1,0 +1,1 @@
+E:\公司\Farseer.Net\Framework\Farseer.Net.Redis\Lib\ServiceStack.Redis\obj\Release\ServiceStack.Redis.csprojResolveAssemblyReference.cache
