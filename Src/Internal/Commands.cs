@@ -166,7 +166,7 @@ namespace FS.Redis.Internal
         /// <summary> 将一个或多个值 value 插入到列表 key 的表头 </summary>
         public readonly static byte[] LPush = "LPUSH".ToUtf8Bytes();
         /// <summary> 将值 value 插入到列表 key 的表头，当且仅当 key 存在并且是一个列表 </summary>
-        public readonly static byte[] LPushX = "LPUSHX".ToUtf8Bytes();
+        public readonly static byte[] LPushHx = "LPUSHX".ToUtf8Bytes();
         /// <summary> 返回列表 key 中指定区间内的元素，区间以偏移量 start 和 stop 指定 </summary>
         public readonly static byte[] LRange = "LRANGE".ToUtf8Bytes();
         /// <summary> 根据参数 count 的值，移除列表中与参数 value 相等的元素 </summary>
@@ -182,7 +182,7 @@ namespace FS.Redis.Internal
         /// <summary> 将一个或多个值 value 插入到列表 key 的表尾 </summary>
         public readonly static byte[] RPush = "RPUSH".ToUtf8Bytes();
         /// <summary> 将值 value 插入到列表 key 的表尾，当且仅当 key 存在并且是一个列表 </summary>
-        public readonly static byte[] RPushX = "RPUSHX".ToUtf8Bytes();
+        public readonly static byte[] RPushHx = "RPUSHX".ToUtf8Bytes();
         #endregion
 
         #region Set的管理

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using FS.Extends;
+using FS.Redis.Data;
 using FS.Redis.Internal;
 using FS.Utils.Common;
 
@@ -64,13 +65,11 @@ namespace FS.Redis
         /// <summary> 返回哈希表 key 中，所有的域和值。 </summary> 
         /// <param name="keyName">Key名称</param>
         /// <returns>以列表形式返回哈希表的域和域的值。</returns>
-        public Dictionary<string, string> Get(string keyName)
+        public List<KeyValue> Get(string keyName)
         {
             Check.IsTure(string.IsNullOrWhiteSpace(keyName), "参数：keyName不能为空");
             var lst = _redisClient.SendExpectMultiData(Commands.HGetAll, keyName.ToUtf8Bytes()).ToListByUtf8<string>();
-            var dic = new Dictionary<string, string>();
-            for (var i = 0; i < lst.Count; i += 2) { dic[lst[i]] = lst[i + 1]; }
-            return dic;
+            return KeyValue.ToList(lst);
         }
 
         /// <summary>
@@ -149,6 +148,7 @@ namespace FS.Redis
         /// <remarks>总是返回 OK (因为 MSET 不可能失败)</remarks>
         public void Set(string keyName, Dictionary<string, string> keyVals)
         {
+            Check.IsTure(string.IsNullOrWhiteSpace(keyName), "参数：keyName不能为空");
             Check.IsTure(keyVals == null || keyVals.Count == 0, "参数：keyVal不能为空");
             var lstCmdBytes = new List<byte[]> { Commands.HMSet };
             foreach (var keyVal in keyVals)

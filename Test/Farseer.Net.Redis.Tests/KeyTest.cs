@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using FS.Redis;
+﻿using FS.Redis;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Farseer.Net.NoSql.Tests
+namespace Farseer.Net.Redis.Tests
 {
     [TestClass]
     public class KeyTest

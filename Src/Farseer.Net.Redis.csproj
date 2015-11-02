@@ -43,8 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Infrastructure\eumSetType.cs" />
+    <Compile Include="Data\eumSetType.cs" />
     <Compile Include="Infrastructure\IRedisQueueCompletableOperation.cs" />
+    <Compile Include="Data\KeyValue.cs" />
     <Compile Include="Infrastructure\Pipeline\IRedisPipelineShared.cs" />
     <Compile Include="Internal\BufferManger.cs" />
     <Compile Include="RedisNumber.cs" />

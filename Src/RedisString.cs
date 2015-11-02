@@ -5,6 +5,7 @@ using System.Text;
 using FS.Redis.Internal;
 using FS.Utils.Common;
 using FS.Extends;
+using FS.Redis.Data;
 using FS.Redis.Infrastructure;
 
 namespace FS.Redis
@@ -129,11 +130,17 @@ namespace FS.Redis
         /// <param name="seconds">有效期单位秒</param>
         /// <param name="setType">附加选项</param>
         /// <remarks>设置成功时返回 OK 。当 seconds 参数不合法时，返回一个错误。</remarks>
-        public void Set(string keyName, string val, int seconds, eumSetType setType = eumSetType.None)
+        public void Set(string keyName, string val, int seconds = 0, eumSetType setType = eumSetType.None)
         {
             Check.IsTure(string.IsNullOrWhiteSpace(keyName), "参数：keyName不能为空");
             Check.IsTure(seconds < 1, "参数：seconds必须大于0");
-            var lstCmdBytes = new List<byte[]> { Commands.Set, keyName.ToUtf8Bytes(), val.ToUtf8Bytes(), Commands.Ex, seconds.ToUtf8Bytes() };
+            var lstCmdBytes = new List<byte[]> { Commands.Set, keyName.ToUtf8Bytes(), val.ToUtf8Bytes() };
+            // 当设置了秒时
+            if (seconds > 0)
+            {
+                lstCmdBytes.Add(Commands.Ex);
+                lstCmdBytes.Add(seconds.ToUtf8Bytes());
+            }
             switch (setType)
             {
                 case eumSetType.NX: lstCmdBytes.Add(Commands.Nx); break;
